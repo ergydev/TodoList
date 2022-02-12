@@ -15,7 +15,7 @@ filterOption.addEventListener('click', filterTodo);
 
 function addTodo(event){
     event.preventDefault();
-    
+
     // Todo DIV 
     const todoDiv = document.createElement('div');
     todoDiv.classList.add('todo');
