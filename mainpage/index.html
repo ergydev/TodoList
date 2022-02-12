@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+
+    <!-- FONTS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:ital,wght@0,300;1,300&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    
+    <!-- ICONS CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+    <div class="conteneur">
+        
+        <header>
+            <div class="conteneur"><h1>MA TODO LIST</h1></div>
+        </header>
+        
+        <div class="form-conteneur">
+            <form id="formulaire">
+                <input type="text" id="formValue" placeholder="Nouvelle tâche à faire">
+                <button type="submit" id="submitButton"><i class="fa-solid fa-plus"></i></button>
+
+                <class class="select">
+                    <select name="todos" class="filter-todo">
+                        <option value="all">Toutes les tâches</option>
+                        <option value="completed">Complétées</option>
+                        <option value="uncompleted">Reste à faire</option>
+                    </select>
+                </class>
+            </form>
+        </div>
+
+
+        <div class="todo-conteneur">
+            <ul class="todo-list">
+                <div class="todo">
+
+                </div>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="../script/script.js"></script>
+</body>
+</html>
